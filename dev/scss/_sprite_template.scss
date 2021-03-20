@@ -1,0 +1,14 @@
+/*
+ 	* SVG Icons Styles
+*/
+
+.icon {
+	display: inline-block;
+}
+
+{{#shapes}}
+.{{base}} {
+	width:({{width.inner}}/{{height.inner}})*1em;
+	height:1em;
+}
+{{/shapes}}

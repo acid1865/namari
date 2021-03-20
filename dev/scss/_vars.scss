@@ -1,0 +1,19 @@
+///
+// Vars
+///
+// Container break-points
+$grid-breakpoints: (min: 0px,
+mobile: 320px,
+mobile-max: 375px,
+tablet: 768px,
+desktop: 1240px);
+
+$gray-0: #CCCCCC;
+$gray-1: darken($color: #CCCCCC, $amount: 20);
+$gray-2: #F5F5F5;
+
+$black: #000000;
+$white: #FFFFFF;
+
+$tan: #D2B48C;
+$red: #C13335;

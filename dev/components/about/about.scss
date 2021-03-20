@@ -1,0 +1,37 @@
+.about {
+
+	&__wrapper {
+		display: flex;
+		margin: 0 -20px;
+
+		@include media-breakpoint-down(mobile-max) {
+			display: block;
+			margin: 0;
+		}
+
+		&-item {
+			margin: 0 20px;
+			
+			@include media-breakpoint-down(mobile-max) {
+				margin: 0;
+			}
+		}
+	}
+
+	&__heading {
+		width: calc(33.33333% - 40px);
+
+		@include media-breakpoint-down(mobile-max) {
+			width: 100%;
+			margin-bottom: 50px;
+		}
+	}
+
+	&__features {
+		width: calc(66.66666% - 40px);
+
+		@include media-breakpoint-down(mobile-max) {
+			width: 100%;
+		}
+	}
+}

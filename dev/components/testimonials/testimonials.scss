@@ -1,0 +1,13 @@
+.testimonials {
+
+	&__wrapper {
+		display: flex;
+		padding-top: 40px;
+		margin: 0 -20px;
+
+		@include media-breakpoint-down(mobile-max) {
+			display: block;
+			margin: 0;
+		}
+	}
+}

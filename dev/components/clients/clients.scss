@@ -1,0 +1,32 @@
+.companies {
+
+	&__wrapper {
+		display: flex;
+		margin: 0 -20px;
+
+		@include media-breakpoint-down(mobile-max) {
+			margin: 0;
+			display: block;
+		}
+	}
+
+	.section__heading {
+		width: calc(33.33333% - 40px);
+		margin: 0 20px;
+
+		@include media-breakpoint-down(mobile-max) {
+			width: 100%;
+			margin: 0;
+		}
+	}
+
+	.companies-list {
+		width: calc(66.66666% - 40px);
+		margin: 0 20px;
+
+		@include media-breakpoint-down(mobile-max) {
+			width: 100%;
+			margin: 0;
+		}
+	}
+}

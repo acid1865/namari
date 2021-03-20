@@ -1,0 +1,51 @@
+.footer {
+	color: $gray-1;
+	font-size: 14px;
+	font-weight: 300;
+	padding: 20px 0;
+	border-top: 1px solid $gray-0;
+
+	&__wrapper {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		@media screen and (max-width: 599px) {
+			display: block;
+			text-align: center;
+
+			.social {
+				margin-top: 20px;
+				justify-content: center;
+			}
+		}
+	}
+
+	&__copyright {
+
+		&_link {
+			@include transition(color);
+
+			@include hover() {
+				color: $black;
+			}
+		}
+
+		@media screen and (max-width: 599px) {
+
+			& {
+				margin-bottom: 20px;
+			}
+		}
+	}
+
+	&__heart {
+		font-size: 24px;
+		cursor: default;
+		@include transition(color);
+
+		@include hover() {
+			color: $red;
+		}
+	}
+}

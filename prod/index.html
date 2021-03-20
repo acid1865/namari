@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="UTF-8"/>
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>Namari - Portfolio Template</title>
+    <link rel="preload" href="css/libs.min.css" as="style"/>
+    <link rel="preload" href="css/main.css" as="style"/>
+    <link rel="stylesheet" href="css/libs.min.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
+  </head>
+  <body>
+    <div class="svg-sprite"><?xml version="1.0" encoding="utf-8"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><symbol viewBox="0 0 480 480" id="expand" xmlns="http://www.w3.org/2000/svg"><path d="M192.013 224a31.802 31.802 0 01-22.628-9.372L64 109.255V160c0 17.673-14.327 32-32 32S0 177.673 0 160V32C.02 14.335 14.335.02 32 0h128.011c17.673 0 32 14.327 32 32s-14.327 32-32 32h-50.749l105.381 105.373c12.497 12.497 12.496 32.758-.001 45.255A32 32 0 01192.013 224zM56 81.941c2.123 0 4.158.843 5.659 2.344L180.7 203.314c6.249 6.249 16.379 6.249 22.628 0s6.249-16.379 0-22.628L84.29 61.657A8 8 0 0189.948 48h70.063c8.837 0 16-7.163 16-16s-7.163-16-16-16H32c-8.832.01-15.99 7.168-16 16v128c0 8.837 7.163 16 16 16s16-7.163 16-16V89.941a8 8 0 018-8zM448 480H319.989c-17.673 0-32-14.327-32-32s14.327-32 32-32h50.749L265.357 310.616c-12.498-12.498-12.498-32.761 0-45.258 12.498-12.498 32.761-12.498 45.258-.001L416 370.737v-50.748c0-17.673 14.327-32 32-32s32 14.327 32 32V448c-.021 17.664-14.336 31.979-32 32zm-128.011-48c-8.837 0-16 7.163-16 16s7.163 16 16 16H448c8.832-.01 15.99-7.168 16-16V319.989c0-8.837-7.163-16-16-16s-16 7.163-16 16v70.063a8 8 0 01-13.658 5.657L299.3 276.672c-6.249-6.248-16.379-6.248-22.627.001s-6.248 16.379 0 22.627L395.71 418.339A8 8 0 01390.052 432z"/></symbol><symbol viewBox="0 0 24 24" id="facebook" xmlns="http://www.w3.org/2000/svg"><path d="M15.997 3.985h2.191V.169C17.81.117 16.51 0 14.996 0c-3.159 0-5.323 1.987-5.323 5.639V9H6.187v4.266h3.486V24h4.274V13.267h3.345l.531-4.266h-3.877V6.062c.001-1.233.333-2.077 2.051-2.077z"/></symbol><symbol viewBox="-91 0 512 512.001" id="flash" xmlns="http://www.w3.org/2000/svg"><path d="M315 211H190.855L298.023 22.441a15.015 15.015 0 00-.043-14.972A15.022 15.022 0 00285 0H105a14.987 14.987 0 00-14.223 10.254l-90 271a14.986 14.986 0 002.051 13.52A15.016 15.016 0 0015 301h127.254L61.219 491.098a14.977 14.977 0 005.742 18.558c6.11 3.906 14.316 2.88 19.246-2.691l240-271a14.99 14.99 0 002.477-16.102A15.003 15.003 0 00315 211zm0 0"/></symbol><symbol viewBox="0 0 512 512" id="google-plus" xmlns="http://www.w3.org/2000/svg"><path d="M448 224v-64h-32v64h-64v32h64v64h32v-64h64v-32zm-288 0v64h90.528c-13.216 37.248-48.8 64-90.528 64-52.928 0-96-43.072-96-96s43.072-96 96-96c22.944 0 45.024 8.224 62.176 23.168l42.048-48.256C235.424 109.824 198.432 96 160 96 71.776 96 0 167.776 0 256s71.776 160 160 160 160-71.776 160-160v-32H160z"/></symbol><symbol viewBox="0 0 299.215 299.215" id="html5" xmlns="http://www.w3.org/2000/svg"><path d="M22.347 0c-2.75 0-4.799 2.241-4.555 4.98l23.184 260.047c.244 2.739 2.611 5.582 5.262 6.318l98.381 27.316c2.65.736 6.986.736 9.637.002l98.68-27.361c2.65-.735 5.02-3.578 5.264-6.316L281.422 4.98c.246-2.739-1.805-4.98-4.555-4.98H22.347zm209.702 59.641l-.842 9.423-.611 6.823c-.246 2.738-.596 6.654-.781 8.701-.184 2.048-.359 3.723-.391 3.723H107.759c-2.75 0-4.799 2.241-4.555 4.98l2.143 23.955c.244 2.738 2.695 4.98 5.445 4.98h111.212c2.449 0 4.273 1.999 4.051 4.442a5396.99 5396.99 0 00-.848 9.423l-6.891 77.228c-.246 2.739-.557 6.238-.691 7.776-.137 1.537-2.416 3.396-5.066 4.131l-58.133 16.119c-2.65.734-4.852 1.342-4.893 1.351-.041.009-2.242-.586-4.893-1.321l-58.195-16.148c-2.65-.735-5.018-3.578-5.262-6.317l-3.746-42.045c-.244-2.739 1.807-4.98 4.557-4.98h23.231c2.75 0 5.199 2.241 5.445 4.98l1.469 16.459c.244 2.739 2.615 5.566 5.271 6.283l27.221 7.351c2.654.717 4.836 1.304 4.848 1.304s2.193-.588 4.848-1.305l27.27-7.369c2.654-.717 5.027-3.545 5.273-6.283l2.957-32.976c.246-2.739-1.803-4.98-4.553-4.98H80.511c-2.75 0-5.199-2.242-5.443-4.98l-7.256-81.306-.842-9.423c-.217-2.443 1.854-4.442 4.604-4.442h155.872c2.749 0 4.821 1.999 4.603 4.443z"/></symbol><symbol viewBox="0 0 511 511.9" id="instagram" xmlns="http://www.w3.org/2000/svg"><path d="M510.95 150.5c-1.2-27.2-5.598-45.898-11.9-62.102-6.5-17.199-16.5-32.597-29.6-45.398-12.802-13-28.302-23.102-45.302-29.5-16.296-6.3-34.898-10.7-62.097-11.898C334.648.3 325.949 0 256.449 0s-78.199.3-105.5 1.5c-27.199 1.2-45.898 5.602-62.097 11.898-17.204 6.5-32.602 16.5-45.403 29.602-13 12.8-23.097 28.3-29.5 45.3-6.3 16.302-10.699 34.9-11.898 62.098C.75 177.801.449 186.5.449 256s.301 78.2 1.5 105.5c1.2 27.2 5.602 45.898 11.903 62.102 6.5 17.199 16.597 32.597 29.597 45.398 12.801 13 28.301 23.102 45.301 29.5 16.3 6.3 34.898 10.7 62.102 11.898 27.296 1.204 36 1.5 105.5 1.5s78.199-.296 105.5-1.5c27.199-1.199 45.898-5.597 62.097-11.898a130.934 130.934 0 0074.903-74.898c6.296-16.301 10.699-34.903 11.898-62.102 1.2-27.3 1.5-36 1.5-105.5s-.102-78.2-1.3-105.5zm-46.098 209c-1.102 25-5.301 38.5-8.801 47.5-8.602 22.3-26.301 40-48.602 48.602-9 3.5-22.597 7.699-47.5 8.796-27 1.204-35.097 1.5-103.398 1.5s-76.5-.296-103.403-1.5c-25-1.097-38.5-5.296-47.5-8.796C94.551 451.5 84.45 445 76.25 436.5c-8.5-8.3-15-18.3-19.102-29.398-3.5-9-7.699-22.602-8.796-47.5-1.204-27-1.5-35.102-1.5-103.403s.296-76.5 1.5-103.398c1.097-25 5.296-38.5 8.796-47.5C61.25 94.199 67.75 84.1 76.352 75.898c8.296-8.5 18.296-15 29.398-19.097 9-3.5 22.602-7.7 47.5-8.801 27-1.2 35.102-1.5 103.398-1.5 68.403 0 76.5.3 103.403 1.5 25 1.102 38.5 5.3 47.5 8.8 11.097 4.098 21.199 10.598 29.398 19.098 8.5 8.301 15 18.301 19.102 29.403 3.5 9 7.699 22.597 8.8 47.5 1.2 27 1.5 35.097 1.5 103.398s-.3 76.301-1.5 103.301zm0 0"/><path d="M256.45 124.5c-72.598 0-131.5 58.898-131.5 131.5s58.902 131.5 131.5 131.5c72.6 0 131.5-58.898 131.5-131.5s-58.9-131.5-131.5-131.5zm0 216.8c-47.098 0-85.302-38.198-85.302-85.3s38.204-85.3 85.301-85.3c47.102 0 85.301 38.198 85.301 85.3s-38.2 85.3-85.3 85.3zm167.402-222c0 16.954-13.747 30.7-30.704 30.7-16.953 0-30.699-13.746-30.699-30.7 0-16.956 13.746-30.698 30.7-30.698 16.956 0 30.703 13.742 30.703 30.699zm0 0"/></symbol><symbol viewBox="0 0 320.001 320.001" id="play" xmlns="http://www.w3.org/2000/svg"><path d="M295.84 146.049l-256-144a16.026 16.026 0 00-15.904.128A15.986 15.986 0 0016 16.001v288a15.986 15.986 0 007.936 13.824A16.144 16.144 0 0032 320.001c2.688 0 5.408-.672 7.84-2.048l256-144c5.024-2.848 8.16-8.16 8.16-13.952s-3.136-11.104-8.16-13.952z"/></symbol><symbol viewBox="0 0 24 24" id="rocket" xmlns="http://www.w3.org/2000/svg"><path d="M23.508.003c-4.685-.084-10.028 2.365-13.41 6.164A12.69 12.69 0 001.402 9.87a.5.5 0 00.28.851l3.854.552-.476.533a.5.5 0 00.02.687l6.427 6.427a.499.499 0 00.687.019l.533-.476.552 3.854c.027.188.175.326.354.386a.46.46 0 00.143.022.565.565 0 00.387-.161c2.285-2.285 3.61-5.432 3.671-8.664 3.803-3.389 6.272-8.73 6.163-13.409a.502.502 0 00-.489-.488zM18.9 8.635c-.487.487-1.127.731-1.768.731s-1.281-.244-1.768-.731a2.505 2.505 0 010-3.536c.975-.975 2.561-.975 3.536 0s.975 2.562 0 3.536zm-16.176 8.27c-1.07 1.07-2.539 5.904-2.703 6.451a.502.502 0 00.623.623c.547-.164 5.381-1.633 6.451-2.703a3.094 3.094 0 000-4.371 3.095 3.095 0 00-4.371 0z"/></symbol><symbol viewBox="0 0 450.56 450.56" id="smartphone" xmlns="http://www.w3.org/2000/svg"><path d="M304.384 0H146.176a56.158 56.158 0 00-56.32 56.32v337.92c0 31.232 25.6 56.32 56.32 56.32h158.208a56.158 56.158 0 0056.32-56.32V56.32A56.158 56.158 0 00304.384 0zm-78.848 414.208c-14.336 0-25.6-11.264-25.6-25.6s11.264-25.6 25.6-25.6 25.6 11.264 25.6 25.6-11.264 25.6-25.6 25.6zm109.568-78.336H115.456V75.264h219.648v260.608z"/></symbol><symbol viewBox="0 0 24 24" id="telegram" xmlns="http://www.w3.org/2000/svg"><path d="M9.417 15.181l-.397 5.584c.568 0 .814-.244 1.109-.537l2.663-2.545 5.518 4.041c1.012.564 1.725.267 1.998-.931L23.93 3.821l.001-.001c.321-1.496-.541-2.081-1.527-1.714l-21.29 8.151c-1.453.564-1.431 1.374-.247 1.741l5.443 1.693L18.953 5.78c.595-.394 1.136-.176.691.218z"/></symbol><symbol viewBox="0 0 512 512" id="twitter" xmlns="http://www.w3.org/2000/svg"><path d="M512 97.248c-19.04 8.352-39.328 13.888-60.48 16.576 21.76-12.992 38.368-33.408 46.176-58.016-20.288 12.096-42.688 20.64-66.56 25.408C411.872 60.704 384.416 48 354.464 48c-58.112 0-104.896 47.168-104.896 104.992 0 8.32.704 16.32 2.432 23.936-87.264-4.256-164.48-46.08-216.352-109.792-9.056 15.712-14.368 33.696-14.368 53.056 0 36.352 18.72 68.576 46.624 87.232-16.864-.32-33.408-5.216-47.424-12.928v1.152c0 51.008 36.384 93.376 84.096 103.136-8.544 2.336-17.856 3.456-27.52 3.456-6.72 0-13.504-.384-19.872-1.792 13.6 41.568 52.192 72.128 98.08 73.12-35.712 27.936-81.056 44.768-130.144 44.768-8.608 0-16.864-.384-25.12-1.44C46.496 446.88 101.6 464 161.024 464c193.152 0 298.752-160 298.752-298.688 0-4.64-.16-9.12-.384-13.568 20.832-14.784 38.336-33.248 52.608-54.496z"/></symbol></svg></div>
+    <div class="wrapper">
+      <section class="introducing" style="background-image: url('assets/images/introducing.jpg')">
+        <header class="header">
+          <div class="container">
+            <div class="header__container"><a class="header__logo" href="#home">Namari</a>
+              <nav class="header__wrapper js-menu">
+                <ul class="header__links">
+                  <li class="header__links_item js-header-link"><a href="#home">Home</a></li>
+                  <li class="header__links_item js-header-link"><a href="#about">About</a></li>
+                  <li class="header__links_item js-header-link"><a href="#gallery">Gallery</a></li>
+                  <li class="header__links_item js-header-link"><a href="#services">Services</a></li>
+                  <li class="header__links_item js-header-link"><a href="#testimonials">Testimonials</a></li>
+                  <li class="header__links_item js-header-link"><a href="#clients">Clients</a></li>
+                  <li class="header__links_item js-header-link"> <a href="#pricing">Pricing</a></li>
+                </ul>
+                <ul class="social">
+                  <li class="social__item"><a href="/">
+                      <svg class="icon facebook">
+                        <use xlink:href="#facebook"></use>
+                      </svg></a></li>
+                  <li class="social__item"><a href="/">
+                      <svg class="icon google-plus">
+                        <use xlink:href="#google-plus"></use>
+                      </svg></a></li>
+                  <li class="social__item"><a href="/">
+                      <svg class="icon twitter">
+                        <use xlink:href="#twitter"></use>
+                      </svg></a></li>
+                  <li class="social__item"><a href="/">
+                      <svg class="icon instagram">
+                        <use xlink:href="#instagram"></use>
+                      </svg></a></li>
+                  <li class="social__item"><a href="/">
+                      <svg class="icon telegram">
+                        <use xlink:href="#telegram"></use>
+                      </svg></a></li>
+                </ul>
+              </nav>
+              <button class="burger js-burger"><span></span></button>
+            </div>
+          </div>
+        </header>
+        <section class="intro" id="home">
+          <div class="container">
+            <div class="intro__wrapper">
+              <h1 class="intro__heading plate-up">A free and simple landing page</h1>
+              <p class="intro__description plate-down">Namari is a free landing page template you can use for your projects. It is free to use for your personal and commercial projects, enjoy!</p><span class="btn-wrapper"><a class="intro__link btn btn--black" href="#">Start creating today</a></span>
+            </div>
+          </div>
+        </section>
+      </section>
+      <section class="section about" id="about">
+        <div class="container">
+          <div class="about__wrapper">
+            <div class="section__heading about__heading about__wrapper-item"><span class="section__feel">Success</span>
+              <h2 class="h2 section__heading_title plate-down">How We Help You To Sell Your Product</h2>
+              <p class="section__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam!</p>
+            </div>
+            <div class="about__features about__wrapper-item">
+              <div class="feature-row">
+                <div class="feature-item" data-aos="fade-up" data-aos-once="true"><span class="feature-item__icon">
+                    <svg class="icon html5">
+                      <use xlink:href="#html5"></use>
+                    </svg></span>
+                  <h3 class="h3 feature-item__title">HTML5 & CSS3</h3>
+                  <p class="feature-item__description">Has ne tritani atomorum conclusionemque, in dolorum volumus cotidieque eum. At vis choro neglegentur iudico</p>
+                </div>
+                <div class="feature-item" data-aos="fade-up" data-aos-delay="100" data-aos-once="true"><span class="feature-item__icon">
+                    <svg class="icon flash">
+                      <use xlink:href="#flash"></use>
+                    </svg></span>
+                  <h3 class="h3 feature-item__title">Easy to Use</h3>
+                  <p class="feature-item__description">Cu vero ipsum vim, doctus facilisi sea in. Eam ex falli honestatis repudiandae, sit detracto mediocrem disputationi</p>
+                </div>
+              </div>
+              <div class="feature-row">
+                <div class="feature-item" data-aos="fade-up" data-aos-delay="200" data-aos-once="true"><span class="feature-item__icon">
+                    <svg class="icon smartphone">
+                      <use xlink:href="#smartphone"></use>
+                    </svg></span>
+                  <h3 class="h3 feature-item__title">Fully Responsive</h3>
+                  <p class="feature-item__description">Id porro tritani recusabo usu, eum intellegam consequuntur et. Fugit debet ea sit, an pro nemore vivendum</p>
+                </div>
+                <div class="feature-item" data-aos="fade-up" data-aos-delay="300" data-aos-once="true"><span class="feature-item__icon">
+                    <svg class="icon rocket">
+                      <use xlink:href="#rocket"></use>
+                    </svg></span>
+                  <h3 class="h3 feature-item__title">Parallax Effect</h3>
+                  <p class="feature-item__description">Id porro tritani recusabo usu, eum intellegam consequuntur et. Fugit debet ea sit, an pro nemore vivendum</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section gallery" id="gallery">
+        <div class="container">
+          <div class="section__heading section__heading--centered"><span class="section__feel">Imagination</span>
+            <h2 class="h2 section__heading_title plate-down plate-down--centered">What We Do?</h2>
+          </div>
+          <div class="gallery-wrapper">
+            <div class="gallery-item" data-aos="flip-up" data-aos-delay="100" data-aos-once="true"><a class="glightbox" href="assets/images/gallery-images/gallery-image-1.jpg" data-gallery="1" data-type="image"><img src="assets/images/gallery-images/gallery-image-1.jpg" alt="Lorem" loading="lazy"/>
+                <svg class="icon expand">
+                  <use xlink:href="#expand"></use>
+                </svg></a></div>
+            <div class="gallery-item" data-aos="flip-up" data-aos-delay="200" data-aos-once="true"><a class="glightbox" href="assets/images/gallery-images/gallery-image-2.jpg" data-gallery="1" data-type="image"><img src="assets/images/gallery-images/gallery-image-2.jpg" alt="Lorem" loading="lazy"/>
+                <svg class="icon expand">
+                  <use xlink:href="#expand"></use>
+                </svg></a></div>
+            <div class="gallery-item" data-aos="flip-up" data-aos-delay="300" data-aos-once="true"><a class="glightbox" href="assets/images/gallery-images/gallery-image-3.jpg" data-gallery="1" data-type="image"><img src="assets/images/gallery-images/gallery-image-3.jpg" alt="Lorem" loading="lazy"/>
+                <svg class="icon expand">
+                  <use xlink:href="#expand"></use>
+                </svg></a></div>
+            <div class="gallery-item" data-aos="flip-up" data-aos-delay="400" data-aos-once="true"><a class="glightbox" href="assets/images/gallery-images/gallery-image-4.jpg" data-gallery="1" data-type="image"><img src="assets/images/gallery-images/gallery-image-4.jpg" alt="Lorem" loading="lazy"/>
+                <svg class="icon expand">
+                  <use xlink:href="#expand"></use>
+                </svg></a></div>
+            <div class="gallery-item" data-aos="flip-up" data-aos-delay="500" data-aos-once="true"><a class="glightbox" href="assets/images/gallery-images/gallery-image-5.jpg" data-gallery="1" data-type="image"><img src="assets/images/gallery-images/gallery-image-5.jpg" alt="Lorem" loading="lazy"/>
+                <svg class="icon expand">
+                  <use xlink:href="#expand"></use>
+                </svg></a></div>
+            <div class="gallery-item" data-aos="flip-up" data-aos-delay="600" data-aos-once="true"><a class="glightbox" href="assets/images/gallery-images/gallery-image-6.jpg" data-gallery="1" data-type="image"><img src="assets/images/gallery-images/gallery-image-6.jpg" alt="Lorem" loading="lazy"/>
+                <svg class="icon expand">
+                  <use xlink:href="#expand"></use>
+                </svg></a></div>
+          </div>
+        </div>
+      </section>
+      <section class="section services" id="services">
+        <div class="container">
+          <div class="services__wrapper">
+            <blockquote class="blockquote services__item">
+              <q class="blockquote__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</q>
+              <footer class="blockquote__author">— John Doe, Happy Customer</footer>
+            </blockquote>
+            <div class="services__content services__item">
+              <div class="section__heading"><span class="section__feel">Believing</span>
+                <h2 class="h2 section__heading_title plate-down">Focusing On What Matters Most</h2>
+                <p class="section__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam!</p>
+              </div>
+              <div class="services__content_text">
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet! </p>
+              </div><span class="btn-wrapper"><a class="btn btn--black glightbox" href="https://www.youtube.com/watch?v=9_CcYN8MVO8" data-gallery="2" data-type="video">Watch video
+                  <svg class="icon play">
+                    <use xlink:href="#play"></use>
+                  </svg></a></span>
+            </div>
+            <div class="services__image services__item"> <img src="assets/images/dancer.jpg" alt="Lorem" loading="lazy"/></div>
+          </div>
+        </div>
+      </section>
+      <section class="section testimonials" id="testimonials">
+        <div class="container">
+          <div class="section__heading section__heading--centered"><span class="section__feel">Feedback</span>
+            <h2 class="h2 section__heading_title plate-down plate-down--centered">What our customers are saying</h2>
+          </div>
+          <div class="testimonials__wrapper">
+            <div class="clients-feedback">
+              <div class="clients-feedback__image">
+                <picture>
+                  <source srcset="assets/images/user-images/user-1.webp" type="image/webp"/><img src="assets/images/user-images/user-1.jpg" alt="Lorem"/>
+                </picture>
+              </div>
+              <blockquote class="blockquote blockquote--centered plate-down plate-down--centered">
+                <q class="blockquote__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</q>
+              </blockquote><span class="clients-feedback__user">John Doe - Happy Customer</span>
+            </div>
+            <div class="clients-feedback">
+              <div class="clients-feedback__image">
+                <picture>
+                  <source srcset="assets/images/user-images/user-2.webp" type="image/webp"/><img src="assets/images/user-images/user-2.jpg" alt="Lorem"/>
+                </picture>
+              </div>
+              <blockquote class="blockquote blockquote--centered plate-down plate-down--centered">
+                <q class="blockquote__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</q>
+              </blockquote><span class="clients-feedback__user">Roslyn Doe - Happy Customer</span>
+            </div>
+            <div class="clients-feedback">
+              <div class="clients-feedback__image">
+                <picture>
+                  <source srcset="assets/images/user-images/user-3.webp" type="image/webp"/><img src="assets/images/user-images/user-3.jpg" alt="Lorem"/>
+                </picture>
+              </div>
+              <blockquote class="blockquote blockquote--centered plate-down plate-down--centered">
+                <q class="blockquote__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</q>
+              </blockquote><span class="clients-feedback__user">Thomas Doe - Happy Customer</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section companies" id="clients">
+        <div class="container">
+          <div class="companies__wrapper">
+            <div class="section__heading"><span class="section__feel">Trust</span>
+              <h2 class="h2 section__heading_title plate-down">Companies who use our services</h2>
+              <p class="section__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam!</p>
+            </div>
+            <ul class="companies-list">
+              <li class="companies-list__item">
+                <picture>
+                  <source srcset="assets/images/company-images/company-logo1.webp" type="image/webp"/><img src="assets/images/company-images/company-logo1.png" alt="Lorem" loading="lazy"/>
+                </picture>
+                <div class="companies-list__item-text"> <span>LOGO</span></div>
+              </li>
+              <li class="companies-list__item">
+                <picture>
+                  <source srcset="assets/images/company-images/company-logo2.webp" type="image/webp"/><img src="assets/images/company-images/company-logo2.png" alt="Lorem" loading="lazy"/>
+                </picture>
+                <div class="companies-list__item-text"> <span>LOGO</span></div>
+              </li>
+              <li class="companies-list__item">
+                <picture>
+                  <source srcset="assets/images/company-images/company-logo3.webp" type="image/webp"/><img src="assets/images/company-images/company-logo3.png" alt="Lorem" loading="lazy"/>
+                </picture>
+                <div class="companies-list__item-text"> <span>LOGO</span></div>
+              </li>
+              <li class="companies-list__item">
+                <picture>
+                  <source srcset="assets/images/company-images/company-logo4.webp" type="image/webp"/><img src="assets/images/company-images/company-logo4.png" alt="Lorem" loading="lazy"/>
+                </picture>
+                <div class="companies-list__item-text"> <span>LOGO</span></div>
+              </li>
+              <li class="companies-list__item">
+                <picture>
+                  <source srcset="assets/images/company-images/company-logo5.webp" type="image/webp"/><img src="assets/images/company-images/company-logo5.png" alt="Lorem" loading="lazy"/>
+                </picture>
+                <div class="companies-list__item-text"> <span>LOGO</span></div>
+              </li>
+              <li class="companies-list__item">
+                <picture>
+                  <source srcset="assets/images/company-images/company-logo6.webp" type="image/webp"/><img src="assets/images/company-images/company-logo6.png" alt="Lorem" loading="lazy"/>
+                </picture>
+                <div class="companies-list__item-text"> <span>LOGO</span></div>
+              </li>
+              <li class="companies-list__item">
+                <picture>
+                  <source srcset="assets/images/company-images/company-logo7.webp" type="image/webp"/><img src="assets/images/company-images/company-logo7.png" alt="Lorem" loading="lazy"/>
+                </picture>
+                <div class="companies-list__item-text"> <span>LOGO</span></div>
+              </li>
+              <li class="companies-list__item">
+                <picture>
+                  <source srcset="assets/images/company-images/company-logo8.webp" type="image/webp"/><img src="assets/images/company-images/company-logo8.png" alt="Lorem" loading="lazy"/>
+                </picture>
+                <div class="companies-list__item-text"> <span>LOGO</span></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="section pricing" id="pricing">
+        <div class="container">
+          <div class="section__heading section__heading--centered"><span class="section__feel">Your choice</span>
+            <h2 class="h2 section__heading_title plate-down plate-down--centered">We have the right package for you</h2>
+          </div>
+          <div class="pricing-values">
+            <div class="pricing-values__item" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000" data-aos-once="true">
+              <div class="pricing-values__item-wrapper">
+                <div class="pricing__title">
+                  <h3 class="pricing__title_heading">Personal</h3><span class="pricing__title_description">The standard version</span>
+                </div>
+                <div class="pricing__value"><span class="pricing__value_currency">$</span><span class="pricing__value_cost">19</span>
+                  <p class="pricing__value_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                </div>
+                <ul class="pricing__advantages">
+                  <li class="pricing__advantages_item">5 Downloads</li>
+                  <li class="pricing__advantages_item">2 Extensions</li>
+                  <li class="pricing__advantages_item">Tutorials</li>
+                  <li class="pricing__advantages_item">Forum Support</li>
+                  <li class="pricing__advantages_item">1 year free updates</li>
+                </ul><span class="btn-wrapper"><a class="btn btn--black" href="#">Buy today</a></span>
+              </div>
+            </div>
+            <div class="pricing-values__item optimal" data-aos="fade-up" data-aos-delay="800" data-aos-duration="1000" data-aos-once="true">
+              <div class="pricing-values__item-wrapper">
+                <div class="pricing__title">
+                  <h3 class="pricing__title_heading">Student</h3><span class="pricing__title_description">Most popular choice</span>
+                </div>
+                <div class="pricing__value"><span class="pricing__value_currency">$</span><span class="pricing__value_cost">29</span>
+                  <p class="pricing__value_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                </div>
+                <ul class="pricing__advantages">
+                  <li class="pricing__advantages_item">15 Downloads</li>
+                  <li class="pricing__advantages_item">5 Extensions</li>
+                  <li class="pricing__advantages_item">Tutorials with Files</li>
+                  <li class="pricing__advantages_item">Forum Support</li>
+                  <li class="pricing__advantages_item">2 years free updates</li>
+                </ul><span class="btn-wrapper"><a class="btn btn--black" href="#">Buy today</a></span>
+              </div>
+            </div>
+            <div class="pricing-values__item" data-aos="fade-up" data-aos-delay="1100" data-aos-duration="1000" data-aos-once="true">
+              <div class="pricing-values__item-wrapper">
+                <div class="pricing__title">
+                  <h3 class="pricing__title_heading">Business</h3><span class="pricing__title_description">For the whole team</span>
+                </div>
+                <div class="pricing__value"><span class="pricing__value_currency">$</span><span class="pricing__value_cost">49</span>
+                  <p class="pricing__value_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                </div>
+                <ul class="pricing__advantages">
+                  <li class="pricing__advantages_item">Unlimited Downloads</li>
+                  <li class="pricing__advantages_item">Unlimited Extensions</li>
+                  <li class="pricing__advantages_item">HD Video Tutorials</li>
+                  <li class="pricing__advantages_item">Chat Support</li>
+                  <li class="pricing__advantages_item">Lifetime free updates</li>
+                </ul><span class="btn-wrapper"><a class="btn btn--black" href="#">Buy today</a></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__wrapper">
+            <div class="footer__copyright">Made with love by <a class="footer__copyright_link underline-effect" href="/">ShapingRain</a></div><span class="footer__heart">❤</span>
+            <ul class="social social--gray">
+              <li class="social__item"><a href="/">
+                  <svg class="icon facebook">
+                    <use xlink:href="#facebook"></use>
+                  </svg></a></li>
+              <li class="social__item"><a href="/">
+                  <svg class="icon google-plus">
+                    <use xlink:href="#google-plus"></use>
+                  </svg></a></li>
+              <li class="social__item"><a href="/">
+                  <svg class="icon twitter">
+                    <use xlink:href="#twitter"></use>
+                  </svg></a></li>
+              <li class="social__item"><a href="/">
+                  <svg class="icon instagram">
+                    <use xlink:href="#instagram"></use>
+                  </svg></a></li>
+              <li class="social__item"><a href="/">
+                  <svg class="icon telegram">
+                    <use xlink:href="#telegram"></use>
+                  </svg></a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

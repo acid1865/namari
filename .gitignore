@@ -1,0 +1,15 @@
+# Add any directories, files, or patterns you don't want to be tracked by version control
+
+/node_modules
+/.gulp
+/.idea
+/.vscode
+/dev/libs/*
+!/dev/libs/vendor
+/makets
+/yarn.lock
+/**/.DS_Store
+/package-lock.json
+node_modules/
+package-lock.json
+yarn.lock

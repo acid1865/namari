@@ -1,0 +1,28 @@
+include ../functions/_mixins.pug
+
+<!DOCTYPE html>
+html(lang="zxx")
+		head
+				meta(charset="UTF-8")
+				link(rel="shortcut icon", href="assets/images/favicon.ico", type="image/x-icon")
+				meta(name="viewport", content="width=device-width, initial-scale=1.0, maximum-scale=1.0")
+				meta(http-equiv="X-UA-Compatible", content="IE=edge")
+				title Namari - Portfolio Template
+				include ../functions/_styles.pug
+		body
+				include ../functions/_svg.pug
+		
+				.wrapper
+					section.introducing(style="background-image: url('assets/images/introducing.jpg')")
+						include ../../components/header/header.pug
+						include ../../components/intro/intro.pug
+					include ../../components/about/about.pug
+					include ../../components/gallery/gallery.pug
+					include ../../components/services/services.pug
+					include ../../components/testimonials/testimonials.pug
+					include ../../components/clients/clients.pug
+					include ../../components/pricing/pricing.pug
+
+					include ../../components/footer/footer.pug
+										
+				include ../functions/_scripts.pug

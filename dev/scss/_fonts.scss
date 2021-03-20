@@ -1,0 +1,65 @@
+/*
+	* Fonts
+*/
+
+@font-face {
+	font-family: "Open Sans";
+	src: url("../assets/fonts/OpenSans-LightItalic.eot");
+	src: url("../assets/fonts/OpenSans-LightItalic.eot?#iefix") format("embedded-opentype"),
+		url("../assets/fonts/OpenSans-LightItalic.woff2") format("woff2"),
+		url("../assets/fonts/OpenSans-LightItalic.woff") format("woff"),
+		url("../assets/fonts/OpenSans-LightItalic.ttf") format("truetype");
+	font-weight: 300;
+	font-style: italic;
+	font-display: swap;
+}
+
+
+@font-face {
+	font-family: "Open Sans";
+	src: url("../assets/fonts/OpenSans-Light.eot");
+	src: url("../assets/fonts/OpenSans-Light.eot?#iefix") format("embedded-opentype"),
+		url("../assets/fonts/OpenSans-Light.woff2") format("woff2"),
+		url("../assets/fonts/OpenSans-Light.woff") format("woff"),
+		url("../assets/fonts/OpenSans-Light.ttf") format("truetype");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Open Sans";
+	src: url("../assets/fonts/OpenSans-SemiBold.eot");
+	src: url("../assets/fonts/OpenSans-SemiBold.eot?#iefix") format("embedded-opentype"),
+		url("../assets/fonts/OpenSans-SemiBold.woff2") format("woff2"),
+		url("../assets/fonts/OpenSans-SemiBold.woff") format("woff"),
+		url("../assets/fonts/OpenSans-SemiBold.ttf") format("truetype");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Open Sans";
+	src: url("../assets/fonts/OpenSans-Bold.eot");
+	src: url("../assets/fonts/OpenSans-Bold.eot?#iefix") format("embedded-opentype"),
+		url("../assets/fonts/OpenSans-Bold.woff2") format("woff2"),
+		url("../assets/fonts/OpenSans-Bold.woff") format("woff"),
+		url("../assets/fonts/OpenSans-Bold.ttf") format("truetype");
+	font-weight: 800;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Open Sans";
+	src: url("../assets/fonts/OpenSans-Regular.eot");
+	src: url("../assets/fonts/OpenSans-Regular.eot?#iefix") format("embedded-opentype"),
+		url("../assets/fonts/OpenSans-Regular.woff2") format("woff2"),
+		url("../assets/fonts/OpenSans-Regular.woff") format("woff"),
+		url("../assets/fonts/OpenSans-Regular.ttf") format("truetype");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+

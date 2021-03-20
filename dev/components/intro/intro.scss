@@ -1,0 +1,56 @@
+.intro {
+	padding-top: 270px;
+	padding-bottom: 150px;
+
+	@include media-breakpoint-down(mobile-max) {
+		padding-top: 150px;
+		padding-bottom: 80px;
+	}
+
+	&__wrapper {
+		max-width: 420px;
+
+		@include media-breakpoint-down(tablet) {
+			text-align: center;
+
+		}
+
+		@include media-breakpoint-down(mobile-max) {
+			padding: 50px 20px 20px;
+			max-width: 100%;
+			background-color: $white;
+			box-shadow: 0 0 10px 0 rgba($color: #000000, $alpha: 0.5);
+		}
+	}
+
+	&__heading {
+		font-size: 60px;
+		text-transform: uppercase;
+		line-height: 66px;
+
+		@include media-breakpoint-down(mobile-max) {
+			font-size: 48px;
+			line-height: 52px;
+		}
+
+		@include media-breakpoint-down(mobile) {
+			font-size: 28px;
+			line-height: 36px;
+		}
+	}
+
+	&__description {
+		margin-top: 30px;
+		color: $gray-1;
+		font-weight: 300;
+		line-height: 1.5;
+
+		@include media-breakpoint-down(mobile) {
+			font-size: 14px;
+		}
+	}
+
+	.btn-wrapper {
+		margin-top: 85px;
+	}
+}
